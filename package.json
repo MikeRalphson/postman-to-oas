@@ -1,7 +1,7 @@
 {
-  "name": "postman-to-swagger",
+  "name": "postman-to-oas",
   "version": "0.0.1",
-  "description": "Convert Postman 2.1 collections to Swagger/OpenAPI 2.0",
+  "description": "Convert Postman 2.1 collections to OpenAPI 3.0",
   "main": "src/index.js",
   "directories": {
     "test": "test"
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tecfu/postman-to-swagger.git"
+    "url": "git+https://github.com/MikeRalphson/postman-to-oas.git"
   },
-  "author": "tecfu",
-  "license": "ISC",
+  "author": "Mike Ralphson",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tecfu/postman-to-swagger/issues"
+    "url": "https://github.com/MikeRalphson/postman-to-oas/issues"
   },
-  "homepage": "https://github.com/tecfu/postman-to-swagger#readme"
+  "homepage": "https://github.com/MikeRalphson/postman-to-oas#readme"
 }
