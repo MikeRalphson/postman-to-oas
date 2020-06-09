@@ -1,6 +1,6 @@
 # Postman to OAS
 
-Converts [Postman 2.1](https://schema.getpostman.com/json/collection/latest/docs/index.html) to [OpenAPI 3.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md)
+Converts [Postman 2.x](https://schema.getpostman.com/json/collection/latest/docs/index.html) to [OpenAPI 3.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md)
 
 ## Introduction
 
@@ -47,9 +47,7 @@ const defaults = {
     headers: ["Content-Type", "X-Requested-With"]
   },
   info: {},
-  host: null,
-  basepath: null,
-  schemes: null,
+  servers: null,
   responses: {
     200: {
       description: "OK"

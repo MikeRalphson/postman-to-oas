@@ -3,10 +3,16 @@
   "version": "0.0.1",
   "description": "Convert Postman 2.1 collections to OpenAPI 3.0",
   "main": "src/index.js",
+  "bin": {
+    "postman-to-oas": "src/cli.js",
+    "p2o": "src/cli.js"
+  },
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "yaml": "^1.10.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
